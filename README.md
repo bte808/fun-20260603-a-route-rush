@@ -2,6 +2,8 @@
 
 Route Rush is a tiny daily browser puzzle where you queue a shuttle route, run the program once, and try to dock with every spark collected.
 
+[Play the live demo](https://bte808.github.io/fun-20260603-a-route-rush/)
+
 ![Route Rush preview](docs/preview.svg)
 
 ## What it does
