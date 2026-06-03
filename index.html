@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Route Rush is a no-dependency daily browser puzzle where you queue shuttle commands, run the route, and chase a clean dock score."
+    >
+    <title>Route Rush</title>
+    <link rel="icon" href="docs/preview.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="src/styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Daily command puzzle</p>
+          <h1>Route Rush</h1>
+        </div>
+        <div class="date-tools" aria-label="Challenge date controls">
+          <label for="challenge-date">Date</label>
+          <input id="challenge-date" type="date">
+          <button id="load-date-button" class="small-button" type="button">Load</button>
+          <button id="copy-link-button" class="small-button" type="button">Copy link</button>
+        </div>
+      </header>
+
+      <section class="game-layout" aria-label="Route Rush game">
+        <section class="play-surface" aria-label="Daily board">
+          <div class="hud">
+            <div>
+              <span>Date</span>
+              <strong id="date-chip">2026-06-03</strong>
+            </div>
+            <div>
+              <span>Route</span>
+              <strong id="route-name">Loading</strong>
+            </div>
+            <div>
+              <span>Sparks</span>
+              <strong id="spark-count">0</strong>
+            </div>
+            <div>
+              <span>Par</span>
+              <strong id="par-count">0</strong>
+            </div>
+            <div>
+              <span>Best</span>
+              <strong id="best-score">0</strong>
+            </div>
+          </div>
+
+          <div id="board" class="board" role="grid" aria-label="Route Rush board"></div>
+          <p id="status-line" class="status-line" aria-live="polite">Queue route commands, then run the shuttle.</p>
+        </section>
+
+        <aside class="command-panel" aria-label="Command queue">
+          <div class="panel-title">
+            <span>Program</span>
+            <strong id="move-count">0/0</strong>
+          </div>
+
+          <div class="dir-pad" aria-label="Direction commands">
+            <button class="dir-button north" data-dir="N" type="button" aria-label="Add north command">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 4 5 15h5v5h4v-5h5L12 4Z"></path>
+              </svg>
+            </button>
+            <button class="dir-button west" data-dir="W" type="button" aria-label="Add west command">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 4 5 15h5v5h4v-5h5L12 4Z"></path>
+              </svg>
+            </button>
+            <button class="dir-button east" data-dir="E" type="button" aria-label="Add east command">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 4 5 15h5v5h4v-5h5L12 4Z"></path>
+              </svg>
+            </button>
+            <button class="dir-button south" data-dir="S" type="button" aria-label="Add south command">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 4 5 15h5v5h4v-5h5L12 4Z"></path>
+              </svg>
+            </button>
+          </div>
+
+          <div id="command-queue" class="command-queue" aria-label="Queued commands"></div>
+
+          <div class="action-row">
+            <button id="run-button" class="primary-button" type="button">Run route</button>
+            <button id="undo-button" type="button">Undo</button>
+            <button id="reset-button" type="button">Reset</button>
+          </div>
+
+          <section id="result-panel" class="result-panel" hidden>
+            <p id="result-title" class="result-title">Docked</p>
+            <p><strong id="score-value">0</strong> points</p>
+            <p id="result-meta" class="result-meta"></p>
+            <button id="copy-button" type="button">Copy result</button>
+          </section>
+        </aside>
+      </section>
+    </main>
+
+    <script type="module" src="src/app.js"></script>
+  </body>
+</html>

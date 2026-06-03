@@ -1,0 +1,23 @@
+{
+  "name": "fun-20260603-a-route-rush",
+  "version": "1.0.0",
+  "description": "A tiny no-dependency daily browser puzzle about programming a route before the shuttle runs.",
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "test": "node scripts/check.mjs",
+    "verify:browser": "node scripts/browser-smoke.mjs",
+    "serve": "python3 -m http.server 5223"
+  },
+  "keywords": [
+    "browser-game",
+    "daily-game",
+    "daily-puzzle",
+    "github-pages",
+    "no-dependencies",
+    "programming-game",
+    "puzzle-game",
+    "static-site"
+  ],
+  "license": "MIT"
+}

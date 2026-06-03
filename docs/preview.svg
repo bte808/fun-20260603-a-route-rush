@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Route Rush preview</title>
+  <desc id="desc">A preview of a route programming puzzle with a 7 by 7 board and command buttons.</desc>
+  <rect width="1200" height="720" fill="#f7f4ee"/>
+  <path d="M0 90H1200M0 180H1200M0 270H1200M0 360H1200M0 450H1200M0 540H1200M0 630H1200" stroke="#17a892" stroke-opacity=".16" stroke-width="2"/>
+  <path d="M90 0V720M180 0V720M270 0V720M360 0V720M450 0V720M540 0V720M630 0V720M720 0V720M810 0V720M900 0V720M990 0V720M1080 0V720" stroke="#f06449" stroke-opacity=".14" stroke-width="2"/>
+  <rect x="72" y="62" width="1056" height="596" rx="8" fill="#fffdf8" stroke="#18161f" stroke-width="6"/>
+  <text x="110" y="132" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="900" fill="#18161f">Route Rush</text>
+  <text x="112" y="178" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" fill="#615f6b">Queue commands, run the shuttle, dock clean.</text>
+
+  <g transform="translate(110 222)">
+    <rect width="420" height="420" rx="8" fill="#18161f"/>
+    <g transform="translate(6 6)">
+      <rect width="408" height="408" fill="#18161f"/>
+      <g fill="#fff9e9">
+        <rect x="0" y="0" width="56" height="56"/><rect x="58" y="0" width="56" height="56"/><rect x="116" y="0" width="56" height="56"/><rect x="174" y="0" width="56" height="56"/><rect x="232" y="0" width="56" height="56"/><rect x="290" y="0" width="56" height="56"/><rect x="348" y="0" width="60" height="56"/>
+        <rect x="0" y="58" width="56" height="56"/><rect x="58" y="58" width="56" height="56"/><rect x="116" y="58" width="56" height="56"/><rect x="174" y="58" width="56" height="56"/><rect x="232" y="58" width="56" height="56"/><rect x="290" y="58" width="56" height="56"/><rect x="348" y="58" width="60" height="56"/>
+        <rect x="0" y="116" width="56" height="56"/><rect x="58" y="116" width="56" height="56"/><rect x="116" y="116" width="56" height="56"/><rect x="174" y="116" width="56" height="56"/><rect x="232" y="116" width="56" height="56"/><rect x="290" y="116" width="56" height="56"/><rect x="348" y="116" width="60" height="56"/>
+        <rect x="0" y="174" width="56" height="56"/><rect x="58" y="174" width="56" height="56"/><rect x="116" y="174" width="56" height="56"/><rect x="174" y="174" width="56" height="56"/><rect x="232" y="174" width="56" height="56"/><rect x="290" y="174" width="56" height="56"/><rect x="348" y="174" width="60" height="56"/>
+        <rect x="0" y="232" width="56" height="56"/><rect x="58" y="232" width="56" height="56"/><rect x="116" y="232" width="56" height="56"/><rect x="174" y="232" width="56" height="56"/><rect x="232" y="232" width="56" height="56"/><rect x="290" y="232" width="56" height="56"/><rect x="348" y="232" width="60" height="56"/>
+        <rect x="0" y="290" width="56" height="56"/><rect x="58" y="290" width="56" height="56"/><rect x="116" y="290" width="56" height="56"/><rect x="174" y="290" width="56" height="56"/><rect x="232" y="290" width="56" height="56"/><rect x="290" y="290" width="56" height="56"/><rect x="348" y="290" width="60" height="56"/>
+        <rect x="0" y="348" width="56" height="60"/><rect x="58" y="348" width="56" height="60"/><rect x="116" y="348" width="56" height="60"/><rect x="174" y="348" width="56" height="60"/><rect x="232" y="348" width="56" height="60"/><rect x="290" y="348" width="56" height="60"/><rect x="348" y="348" width="60" height="60"/>
+      </g>
+      <path d="M27 318H86V260H144V202H202V144H260V86H318" fill="none" stroke="#6d5dfc" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" opacity=".36"/>
+      <rect x="12" y="302" width="34" height="18" rx="4" fill="#6d5dfc" stroke="#18161f" stroke-width="4" transform="rotate(-12 29 311)"/>
+      <circle cx="318" cy="86" r="25" fill="none" stroke="#17a892" stroke-width="8"/>
+      <circle cx="86" cy="260" r="15" fill="#f7c948" stroke="#18161f" stroke-width="4"/>
+      <circle cx="144" cy="202" r="15" fill="#f7c948" stroke="#18161f" stroke-width="4"/>
+      <circle cx="260" cy="86" r="15" fill="#f7c948" stroke="#18161f" stroke-width="4"/>
+      <g fill="#f06449" stroke="#18161f" stroke-width="4">
+        <rect x="186" y="244" width="32" height="32" rx="4"/>
+        <rect x="302" y="186" width="32" height="32" rx="4"/>
+        <rect x="70" y="70" width="32" height="32" rx="4"/>
+        <rect x="244" y="302" width="32" height="32" rx="4"/>
+      </g>
+      <rect x="302" y="72" width="38" height="26" rx="6" fill="#17a892" stroke="#18161f" stroke-width="4" transform="rotate(45 321 85)"/>
+    </g>
+  </g>
+
+  <g transform="translate(590 248)">
+    <rect width="470" height="324" rx="8" fill="#fffdf8" stroke="#18161f" stroke-width="5"/>
+    <text x="34" y="58" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" fill="#18161f">Program</text>
+    <text x="374" y="58" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" fill="#18161f">11/14</text>
+    <g transform="translate(34 86)" fill="#ecfff9" stroke="#18161f" stroke-width="4">
+      <rect width="76" height="54" rx="8"/><rect x="88" width="76" height="54" rx="8"/><rect x="176" width="76" height="54" rx="8"/><rect x="264" width="76" height="54" rx="8"/>
+      <rect y="66" width="76" height="54" rx="8"/><rect x="88" y="66" width="76" height="54" rx="8"/><rect x="176" y="66" width="76" height="54" rx="8"/>
+    </g>
+    <text x="59" y="122" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" fill="#18161f">E</text>
+    <text x="147" y="122" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" fill="#18161f">S</text>
+    <text x="235" y="122" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" fill="#18161f">E</text>
+    <text x="323" y="122" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" fill="#18161f">N</text>
+    <text x="59" y="188" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" fill="#18161f">E</text>
+    <text x="147" y="188" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" fill="#18161f">S</text>
+    <text x="235" y="188" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" fill="#18161f">E</text>
+    <rect x="34" y="236" width="188" height="58" rx="8" fill="#f7c948" stroke="#18161f" stroke-width="4"/>
+    <text x="70" y="273" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="900" fill="#18161f">Run route</text>
+  </g>
+</svg>
